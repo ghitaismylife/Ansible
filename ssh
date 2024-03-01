@@ -1,0 +1,3 @@
+# To create ssh key use the command ssh-keygen  
+# To copy public to remot host ssh-copy-id 
+# To to log into remot host without password copy the public key into authorized file in remot host
