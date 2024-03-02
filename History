@@ -1,1 +1,4 @@
 ansible all --key-file ~/ssh-key1.pem -i inventory -m ping /* to test ssh connection via inventory file that has list of ip addresses*/
+########################################################
+ansible-playbook playbook-Apache.yaml -i inventory -u server1 /* to launch playbook onremot host 
+#####################################################
