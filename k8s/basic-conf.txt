@@ -1,0 +1,6 @@
+kubectl create deployment nginx-dep --image=nginx
+kubectl get pod
+kubectl get deployment
+kubectl get replicaset
+kubectl logs name-deployment
+
